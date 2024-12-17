@@ -17,7 +17,7 @@ var OhlcElement = FinancialElement.extend({
 		var ctx = this._chart.ctx;
 		var vm = this._view;
 
-		var x = vm.x;                      
+		var x = vm.x;
 		var o = vm.candleOpen;
 		var h = vm.candleHigh;
 		var l = vm.candleLow;
